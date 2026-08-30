@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "find-solutions",
+  "description": "Evidence-aware rescue workflows for agents that are stuck",
+  "owner": {
+    "name": "Dad52"
+  },
+  "plugins": [
+    {
+      "name": "find-solutions",
+      "description": "Discover, verify, compare, and rank practical routes when an agent or team is stuck.",
+      "author": {
+        "name": "Dad52"
+      },
+      "category": "development",
+      "source": "./"
+    }
+  ]
+}

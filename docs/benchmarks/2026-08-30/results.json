@@ -1,0 +1,854 @@
+{
+  "schema_version": 1,
+  "run_date": "2026-08-30",
+  "worker": {
+    "host": "codex",
+    "model": "gpt-5.6-terra",
+    "reasoning_effort": "xhigh"
+  },
+  "groups": {
+    "find-solutions:codex:baseline": {
+      "runs": 9,
+      "status_counts": {
+        "pass": 9
+      },
+      "wall_time_seconds": {
+        "median": 23.867,
+        "p90_nearest_rank": 53.481
+      },
+      "output_tokens": {
+        "median": 1527.0,
+        "p90_nearest_rank": 3952.0
+      },
+      "input_tokens": {
+        "median": 22872.0,
+        "p90_nearest_rank": 23097.0
+      },
+      "assertions": {
+        "at_least_one_route": {
+          "pass": 9
+        },
+        "complete_route_packages": {
+          "pass": 9
+        },
+        "distinct_mechanism_labels": {
+          "pass": 9
+        },
+        "valid_output_schema": {
+          "pass": 9
+        }
+      }
+    },
+    "find-solutions:codex:with_skill": {
+      "runs": 9,
+      "status_counts": {
+        "pass": 9
+      },
+      "wall_time_seconds": {
+        "median": 25.658,
+        "p90_nearest_rank": 66.417
+      },
+      "output_tokens": {
+        "median": 1570.0,
+        "p90_nearest_rank": 5200.0
+      },
+      "input_tokens": {
+        "median": 22877.0,
+        "p90_nearest_rank": 47907.0
+      },
+      "assertions": {
+        "at_least_one_route": {
+          "pass": 9
+        },
+        "complete_route_packages": {
+          "pass": 9
+        },
+        "distinct_mechanism_labels": {
+          "pass": 9
+        },
+        "valid_output_schema": {
+          "pass": 9
+        }
+      }
+    }
+  },
+  "records": [
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "baseline",
+      "case_id": "fast-business-003",
+      "repeat": 1,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 20.807
+        }
+      ],
+      "wall_time_seconds": 20.807,
+      "tokens": {
+        "input_tokens": 22869,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 1143,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "578bf35407cbc5cb5f2abfad51d231bb89cbd6a56719d67a2500208f4319ad3e"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "baseline",
+      "case_id": "fast-business-003",
+      "repeat": 2,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 24.063
+        }
+      ],
+      "wall_time_seconds": 24.063,
+      "tokens": {
+        "input_tokens": 22869,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 1597,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "5de82c41ebb97f8d7c2338cc043dd9cdcad3fd3d561a18abc4be40c0d2172f5e"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "baseline",
+      "case_id": "fast-business-003",
+      "repeat": 3,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 21.192
+        }
+      ],
+      "wall_time_seconds": 21.192,
+      "tokens": {
+        "input_tokens": 22869,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 990,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "290ce8089b279054396988ad7044e4d3373341d0567aef41266950875c62e8ba"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "with_skill",
+      "case_id": "fast-business-003",
+      "repeat": 1,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 18.28
+        }
+      ],
+      "wall_time_seconds": 18.28,
+      "tokens": {
+        "input_tokens": 22874,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 1141,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "419e2f0dd7a71cbff830f6a7daaf9ff50f7b1bc2860164ed23f702c97d77875a"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "with_skill",
+      "case_id": "fast-business-003",
+      "repeat": 2,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 18.686
+        }
+      ],
+      "wall_time_seconds": 18.686,
+      "tokens": {
+        "input_tokens": 22874,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 1225,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "8bb60f87516213a2c98dadb2da645d4817f1dfee71c5c4e1937b1b0b6066de00"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "with_skill",
+      "case_id": "fast-business-003",
+      "repeat": 3,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 16.11
+        }
+      ],
+      "wall_time_seconds": 16.11,
+      "tokens": {
+        "input_tokens": 22874,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 994,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "a5bf6eeae5b5cdf37392b20553fbd853b6bcf6e6f2d3a938590f13cbee9de788"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "baseline",
+      "case_id": "fast-life-001",
+      "repeat": 1,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 16.052
+        }
+      ],
+      "wall_time_seconds": 16.052,
+      "tokens": {
+        "input_tokens": 23097,
+        "cached_input_tokens": 0,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 936,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "6890fe744dae9a5cb56fbc256bd27b5e39deeee1f91aa749aada7381b23c1b2a"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "baseline",
+      "case_id": "fast-life-001",
+      "repeat": 2,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 34.617
+        }
+      ],
+      "wall_time_seconds": 34.617,
+      "tokens": {
+        "input_tokens": 23097,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 2495,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "0a0dd70b674588eebb61dc277bcf98e9c70a9371343e36bc34f3d980424fda12"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "baseline",
+      "case_id": "fast-life-001",
+      "repeat": 3,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 53.481
+        }
+      ],
+      "wall_time_seconds": 53.481,
+      "tokens": {
+        "input_tokens": 23097,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 3952,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "b40e99b6b4e77a5e99ecf8a57d0a4c1e5f7de609be937427515c0e2109022cda"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "with_skill",
+      "case_id": "fast-life-001",
+      "repeat": 1,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 66.417
+        }
+      ],
+      "wall_time_seconds": 66.417,
+      "tokens": {
+        "input_tokens": 23102,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 5200,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "2cd622b0c769f488bf78f398f59c920c0ad728215c34e57f8a201b74b8520d8a"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "with_skill",
+      "case_id": "fast-life-001",
+      "repeat": 2,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 47.188
+        }
+      ],
+      "wall_time_seconds": 47.188,
+      "tokens": {
+        "input_tokens": 47907,
+        "cached_input_tokens": 33280,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 3539,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "54a34da876b164dc4f84293a73ffa965f0cdfbb889781075d53610c99cc04bf3"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "with_skill",
+      "case_id": "fast-life-001",
+      "repeat": 3,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 18.752
+        }
+      ],
+      "wall_time_seconds": 18.752,
+      "tokens": {
+        "input_tokens": 23102,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 1199,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "7d80842cd16cb90cd77748383a293b8fab8bb24a71620c078b32842e46c30040"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "baseline",
+      "case_id": "fast-tech-002",
+      "repeat": 1,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 26.75
+        }
+      ],
+      "wall_time_seconds": 26.75,
+      "tokens": {
+        "input_tokens": 22872,
+        "cached_input_tokens": 6912,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 1764,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "b0ea1b788669c593b869fffcb1015fc5057b5d5c375539e85c0603d4d26d1b5e"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "baseline",
+      "case_id": "fast-tech-002",
+      "repeat": 2,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 21.653
+        }
+      ],
+      "wall_time_seconds": 21.653,
+      "tokens": {
+        "input_tokens": 22872,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 1378,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "6d3fa32931664eb6f05ada6ada1add1639d99785c51af6d6e232d3d8085ab601"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "baseline",
+      "case_id": "fast-tech-002",
+      "repeat": 3,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 23.867
+        }
+      ],
+      "wall_time_seconds": 23.867,
+      "tokens": {
+        "input_tokens": 22872,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 1527,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "6364eb41a33f3ef132aa4afa80d4f92a03df940317c8de3201dd14f00fbb088d"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "with_skill",
+      "case_id": "fast-tech-002",
+      "repeat": 1,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 25.658
+        }
+      ],
+      "wall_time_seconds": 25.658,
+      "tokens": {
+        "input_tokens": 22877,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 1570,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "df288b7542a3009a64f8ca4e954593b1b4e18e71da98e71aa25427ed137afc6a"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "with_skill",
+      "case_id": "fast-tech-002",
+      "repeat": 2,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 26.417
+        }
+      ],
+      "wall_time_seconds": 26.417,
+      "tokens": {
+        "input_tokens": 22877,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 1778,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "16f58d87c9d3eafc87aca16439a60482e108458a50c06d4856a72e686e8d9e00"
+    },
+    {
+      "suite": "find-solutions",
+      "host": "codex",
+      "condition": "with_skill",
+      "case_id": "fast-tech-002",
+      "repeat": 3,
+      "status": "pass",
+      "attempts": [
+        {
+          "returncode": 0,
+          "timed_out": false,
+          "wall_time_seconds": 38.788
+        }
+      ],
+      "wall_time_seconds": 38.788,
+      "tokens": {
+        "input_tokens": 22877,
+        "cached_input_tokens": 11008,
+        "reasoning_tokens": "unknown",
+        "output_tokens": 2889,
+        "total_tokens": "unknown"
+      },
+      "assertions": [
+        {
+          "assertion_id": "valid_output_schema",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "at_least_one_route",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "complete_route_packages",
+          "outcome": "pass"
+        },
+        {
+          "assertion_id": "distinct_mechanism_labels",
+          "outcome": "pass"
+        }
+      ],
+      "static_summary": null,
+      "final_sha256": "06ef0162e8d24b6639843d0dfa31eb91053243f87913e29fa22bc2ea7dfd3c1a"
+    }
+  ],
+  "artifact_hashes": {
+    "run_harness": "2ec266f68c87228ca4364db62066c32d330968f7fafd51f7a23d7d5c17cb75e6"
+  }
+}

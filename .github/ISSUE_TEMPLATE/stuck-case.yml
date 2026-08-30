@@ -1,0 +1,35 @@
+name: Real stuck case
+about: Show where the skill did or did not unblock a real task
+title: "[stuck-case] "
+labels: ["evaluation"]
+body:
+  - type: textarea
+    attributes:
+      label: Exact invocation
+      description: Remove secrets and private data.
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Outcome, hard constraints, and attempts
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Output or reproducible excerpt
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: What happened?
+      options:
+        - Changed my next action
+        - Useful but did not change my action
+        - Repeated attempted routes
+        - Violated a constraint
+        - Unsupported current claim
+        - Bad ranking
+        - Too slow or too long
+        - Other
+    validations:
+      required: true

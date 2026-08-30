@@ -1,0 +1,6 @@
+interface:
+  display_name: "Find Solutions"
+  short_description: "Find a practical route when obvious options failed"
+  default_prompt: "Use $find-solutions to find a workable route after the obvious options have failed."
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,30 @@
+{
+  "name": "find-solutions",
+  "version": "0.1.0",
+  "description": "Find the shortest credible route around a blocker when the obvious path has failed.",
+  "author": {
+    "name": "Dad52"
+  },
+  "license": "MIT",
+  "keywords": [
+    "problem-solving",
+    "research",
+    "decision-making",
+    "brainstorming",
+    "agent-rescue"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Find Solutions",
+    "shortDescription": "Find credible routes around a blocker",
+    "longDescription": "Turn a stuck task into a ranked next move with evidence checks, tests, and fallbacks without taking external action.",
+    "developerName": "Dad52",
+    "category": "Education & Research",
+    "capabilities": [
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use $find-solutions to map the shortest credible routes around this blocker."
+    ]
+  }
+}

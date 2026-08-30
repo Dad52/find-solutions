@@ -1,0 +1,7 @@
+# Fast candidate-vs-current panel: six deterministic offline cases
+fast-life-001
+fast-tech-002
+fast-business-003
+fast-game-004
+fast-creative-005
+fast-narrow-006

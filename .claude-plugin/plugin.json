@@ -1,0 +1,8 @@
+{
+  "name": "find-solutions",
+  "version": "0.1.0",
+  "description": "Find the shortest credible route around a blocker when the obvious path has failed.",
+  "author": {
+    "name": "Dad52"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "pair_id": "fast-tech-002::r01",
+  "rater": "rater-1",
+  "preference": "A",
+  "critical_failure": {
+    "A": false,
+    "B": false
+  },
+  "scores": {
+    "A": {
+      "frontier_success_at_3": 1,
+      "practical_novelty_at_5": 3,
+      "accepted_route_at_5": 4,
+      "ranking_hit_at_1": 1,
+      "trap_count_at_5": 0,
+      "unique_mechanism_at_5": 4,
+      "route_package_completeness": 4,
+      "constraint_fit": 4,
+      "evidence_calibration": 4,
+      "clarity_efficiency": 3
+    },
+    "B": {
+      "frontier_success_at_3": 0,
+      "practical_novelty_at_5": 1,
+      "accepted_route_at_5": 2,
+      "ranking_hit_at_1": 0,
+      "trap_count_at_5": 2,
+      "unique_mechanism_at_5": 1,
+      "route_package_completeness": 2,
+      "constraint_fit": 3,
+      "evidence_calibration": 3,
+      "clarity_efficiency": 3
+    }
+  },
+  "mechanism_keys": {
+    "A": [
+      "stable-operation-key-at-boundary",
+      "ambiguous-outcome-reconciliation",
+      "failure-window-observability"
+    ],
+    "B": [
+      "stable-operation-key-at-boundary"
+    ]
+  },
+  "notes": "A ranks a bounded containment route first and covers the accepted-but-timeout window."
+}

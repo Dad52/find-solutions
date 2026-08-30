@@ -1,0 +1,13 @@
+# Fast, diverse preflight before the full suite
+core-001
+core-002
+core-004
+core-005
+core-006
+core-011
+tech-018
+local-030
+novelty-045
+adversarial-049
+safety-050
+edge-054

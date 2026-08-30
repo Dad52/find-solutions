@@ -1,0 +1,13 @@
+# Cases where find-solutions and ADHD have genuine scope overlap
+core-001
+core-002
+core-012
+core-013
+core-014
+tech-018
+tech-019
+tech-020
+tech-022
+prod-025
+novelty-045
+edge-053

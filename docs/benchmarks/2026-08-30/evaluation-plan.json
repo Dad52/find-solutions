@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "candidate": "find-solutions v0.1.0",
+  "baseline": "Codex without find-solutions",
+  "worker": {
+    "host": "codex",
+    "model": "gpt-5.6-terra",
+    "reasoning_effort": "xhigh"
+  },
+  "cases": [
+    "fast-life-001",
+    "fast-business-003",
+    "fast-tech-002"
+  ],
+  "repeats_per_case_and_condition": 3,
+  "conditions": [
+    "baseline",
+    "with_skill"
+  ],
+  "isolation": "fresh Codex execution and workspace per run; one concurrent run",
+  "assertions": [
+    "valid JSON response schema",
+    "at least one route",
+    "all returned routes contain the requested route-package fields",
+    "no byte-identical mechanism labels in one response"
+  ],
+  "judge": "none; these are deterministic release-contract assertions, not a semantic-quality judge",
+  "timeout_seconds": 300
+}

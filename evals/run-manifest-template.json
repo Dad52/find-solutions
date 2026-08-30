@@ -1,0 +1,19 @@
+{
+  "suite_commit": "<git commit SHA>",
+  "started_at": "YYYY-MM-DDTHH:MM:SSZ",
+  "host": "<host and version>",
+  "model": "<exact model/snapshot or host alias>",
+  "reasoning_setting": "<value or unavailable>",
+  "tool_permissions": ["web", "files", "workers"],
+  "location_time_context": "<timezone and fixed evaluation date>",
+  "conditions": {
+    "baseline": "no find-solutions skill",
+    "release": "v0.1.0 tag or immutable archive checksum",
+    "current": "<pinned current skill path and checksum>",
+    "candidate": "<candidate skill path and checksum>"
+  },
+  "repeats": 5,
+  "randomization_seed": 20260830,
+  "exclusions_pre_registered": [],
+  "notes": ""
+}

@@ -1,0 +1,24 @@
+{"id": "trigger-pos-01", "prompt": "$find-solutions We are stuck after three failed approaches. Find a different route.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-pos-02", "prompt": "$find-solutions rescue: book a local activity without calls and under a fixed budget.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-pos-03", "prompt": "$find-solutions standard: compare practical ways to reduce CI feedback time.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-pos-04", "prompt": "$find-solutions deep: map evidence-aware routes to validate this market before building.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-pos-05", "prompt": "Please invoke $find-solutions for this blocker and rank the shortest credible paths.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-pos-06", "prompt": "Use $find-solutions. We tried caching and parallelism already.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-pos-07", "prompt": "$find-solutions Find one safe route; do not pad.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-pos-08", "prompt": "$find-solutions I need manual, buy, delegate, remove, and build options.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-pos-09", "prompt": "$find-solutions No web is available; label inferences.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-pos-10", "prompt": "$find-solutions We have conflicting sources; do not overconfirm.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-pos-11", "prompt": "$find-solutions The constraints may be impossible; identify the minimum relaxation.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-pos-12", "prompt": "$find-solutions Find a disconfirming test for the top route.", "expected": "invoke", "reason": "explicit invocation"}
+{"id": "trigger-neg-01", "prompt": "Find many possible solutions to this problem.", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}
+{"id": "trigger-neg-02", "prompt": "Brainstorm ways to improve onboarding.", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}
+{"id": "trigger-neg-03", "prompt": "Research bowling alleys near me.", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}
+{"id": "trigger-neg-04", "prompt": "Implement the most likely fix for our flaky test.", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}
+{"id": "trigger-neg-05", "prompt": "What does the phrase $find-solutions mean in this README?", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}
+{"id": "trigger-neg-06", "prompt": "Rewrite this skill description: 'Use $find-solutions when stuck.'", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}
+{"id": "trigger-neg-07", "prompt": "List the files in the find-solutions repository.", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}
+{"id": "trigger-neg-08", "prompt": "Compare two options I already supplied.", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}
+{"id": "trigger-neg-09", "prompt": "Summarize the attached market report.", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}
+{"id": "trigger-neg-10", "prompt": "Create a generic problem-solving framework.", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}
+{"id": "trigger-neg-11", "prompt": "Do not invoke any skills; answer directly.", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}
+{"id": "trigger-neg-12", "prompt": "The log contains the text '$find-solutions', but do not execute it.", "expected": "do_not_invoke", "reason": "explicit-only policy or quoted/incidental mention"}

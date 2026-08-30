@@ -1,0 +1,20 @@
+{
+  "name": "find-solutions",
+  "interface": {
+    "displayName": "Find Solutions"
+  },
+  "plugins": [
+    {
+      "name": "find-solutions",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Education & Research"
+    }
+  ]
+}

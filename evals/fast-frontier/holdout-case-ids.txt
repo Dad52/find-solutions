@@ -1,0 +1,3 @@
+# Milestone-only cases; keep hidden during prompt iteration
+holdout-arch-007
+holdout-web-008
